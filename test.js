@@ -1,11 +1,12 @@
 'use strict';
 const test = require('ava');
-let checkWh = require('./cli.js').checkWh;
-let checkQuestionMark = require('./cli.js').checkQuestionMark;
+const checkWh = require('./cli.js').checkWh;
+const checkQuestionMark = require('./cli.js').checkQuestionMark;
+const checkingLength = require('./cli.js').checkingLength;
 
 test('detect existant and non-existant question mark', t => {
-  const tempWithQ = checkQuestionMark('sdfsdf?');
-  const tempWithoutQ = checkQuestionMark('sdfsdf');
+  const tempWithQ = checkQuestionMark('I will put a question mark at the end?');
+  const tempWithoutQ = checkQuestionMark('I will not put a question mark at the end');
 
   t.true(tempWithQ);
   t.false(tempWithoutQ);

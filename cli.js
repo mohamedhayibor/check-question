@@ -21,10 +21,10 @@ const question = cli.input.join(' ');
 * - question's length, wh-question and question mark.
 */
 
-// checking length
+// checking length, (will add test later)
 if (question.length < 1) {
   console.error('A question is required');
-  process.exit(1);
+  string.exit(1);
 } else if (question.length > 150) {
   process.stdout.write('Your question might be too long.\nCould you make it more concise?\n\n');
 } else if (question.length < 15) {

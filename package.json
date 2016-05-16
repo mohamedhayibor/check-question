@@ -1,0 +1,21 @@
+{
+  "name": "check-question",
+  "version": "1.0.0",
+  "description": "Ask better questions. Get better answers. Everyone becomes :awesome:",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohamedhayibor/check-question.git"
+  },
+  "keywords": [],
+  "author": "Mohamed Hayibor <mohamedhayibor@gmail.com> (github.com/mohamedhayibor)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mohamedhayibor/check-question/issues"
+  },
+  "homepage": "https://github.com/mohamedhayibor/check-question#readme"
+}

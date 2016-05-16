@@ -2,20 +2,37 @@
   "name": "check-question",
   "version": "1.0.0",
   "description": "Ask better questions. Get better answers. Everyone becomes :awesome:",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mohamedhayibor/check-question.git"
   },
-  "keywords": [],
+  "bin": {
+    "check-question": "cli.js"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "questions",
+    "answers",
+    "stackoverflow",
+    "quora",
+    "forums",
+    "asking"
+  ],
   "author": "Mohamed Hayibor <mohamedhayibor@gmail.com> (github.com/mohamedhayibor)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mohamedhayibor/check-question/issues"
   },
-  "homepage": "https://github.com/mohamedhayibor/check-question#readme"
+  "homepage": "https://github.com/mohamedhayibor/check-question#readme",
+  "dependencies": {
+    "meow": "^3.7.0"
+  }
 }

@@ -16,7 +16,7 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava"
   },
   "keywords": [
     "questions",
@@ -34,5 +34,8 @@
   "homepage": "https://github.com/mohamedhayibor/check-question#readme",
   "dependencies": {
     "meow": "^3.7.0"
+  },
+  "devDependencies": {
+    "ava": "^0.14.0"
   }
 }

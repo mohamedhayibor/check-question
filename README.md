@@ -18,6 +18,7 @@ On your terminal:
 ```
 Basically: The keyword "check-question" and whatever question you want to check.
 
+![](http://res.cloudinary.com/masteryoperation/image/upload/v1463445457/Screen_Shot_2016-05-16_at_8.36.06_PM_jtj7fs.png)
 
 ## Raison d'être
 

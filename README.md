@@ -22,7 +22,7 @@ Basically: The keyword "check-question" and whatever question you want to check.
 
 ## Raison d'être
 
-Everybody becomes happy with better questions. They yield better answers and just makes the internet (world) better.
+Everybody becomes happy with better questions. They yield better answers and just makes the internet (world) better. :sunglasses:
 
 English is my third language and I have been drilled by the strict rule of asking ["wh" type questions](https://en.wikipedia.org/wiki/Question#wh) and respecting the structure:
 

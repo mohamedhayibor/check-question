@@ -34,7 +34,7 @@ I still think that this structure just prompts you in asking better questions.
 More reasons on why this is a big deal check out this [presentation](http://slides.com/mohamedhayibor/mckinsey-hackathon/fullscreen)
 
 ## Related
-- Github SPA (currently implementing)
+- [check-question-site](http://mohamedhayibor.github.io/check-question-site/)
 - Chrome Extension (currently implementing)
 
 ## License

@@ -26,7 +26,7 @@ let everythingIsOk = true;
 // checking length, (will add test later)
 if (question.length < 1) {
   console.error('A question is required');
-  string.exit(1);
+  process.exit(1);
 } else if (question.length > 150) {
   process.stdout.write('Your question might be too long.\nCould you make it more concise?\n\n');
   everythingIsOk = false;

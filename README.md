@@ -9,8 +9,6 @@ This module gives you a command that check whether your question is any good and
 
 Don't forget the "-g" to install it globally. (then you can run check-question anywhere)
 
-` >>> Include img demo`
-
 ## Usage
 
 On your terminal:

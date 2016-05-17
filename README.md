@@ -1,4 +1,4 @@
-# check-question ![](https://img.shields.io/badge/status-stable-green.svg)
+# check-question ![Build Status](https://travis-ci.org/mohamedhayibor/check-question.svg?branch=master)
 
 This module gives you a command that check whether your question is any good and gives you hints on how to improve it.
 

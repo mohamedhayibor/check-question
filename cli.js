@@ -17,6 +17,8 @@ const cli = meow(`
 
 const question = cli.input.join(' ');
 
+let everythingIsOk = true;
+
 /** 3 things to check:
 * - question's length, wh-question and question mark.
 */
@@ -27,8 +29,10 @@ if (question.length < 1) {
   string.exit(1);
 } else if (question.length > 150) {
   process.stdout.write('Your question might be too long.\nCould you make it more concise?\n\n');
+  everythingIsOk = false;
 } else if (question.length < 15) {
   process.stdout.write('Your question might be too short.\nCould you give more context?\n\n');
+  everythingIsOk = false;
 }
 
 // check for the wh questions
@@ -47,6 +51,7 @@ if ( !checkWh(question) ) {
     - how
     - when
     - or why keyword.\n\n`);
+  everythingIsOk = false;
 }
 
 // checking for question mark
@@ -56,7 +61,8 @@ const checkQuestionMark = (value) => {
 };
 
 if ( !checkQuestionMark(question) ) {
-  process.stdout.write('Your question does not have a question mark.\nAdding it would make it awesome.\n\n')
+  process.stdout.write('Your question does not have a question mark.\nAdding it would make it awesome.\n\n');
+  everythingIsOk = false;
 }
 
 // export for testing purposes
@@ -64,5 +70,8 @@ module.exports = { checkWh, checkQuestionMark };
 
 // exit process after 2s
 setTimeout(function() {
+  if (everythingIsOk) {
+    process.stdout.write('That looks awesome!');
+  }
   process.exit(1)
 }, 2 * 1000)

@@ -40,7 +40,7 @@ const checkWh = (value) => {
   let tempArray = value.toLowerCase().split(' ');
   return tempArray.filter( val => {
     return (val === 'how' || val === 'why' || val === 'what' ||
-    val === 'where' || val === 'when');
+    val === 'where' || val === 'when' || val === 'who');
   }).length > 0;
 };
 

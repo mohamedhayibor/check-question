@@ -19,3 +19,11 @@ test('checking for existant and non-existant wh-question', t => {
   t.true( withWhQuestion);
   t.false( withoutWhQuestion);
 })
+
+test('checking for the "who" wh-question', t => {
+  const withWhQuestion = checkWh('who did this');
+  const withoutWhQuestion = checkWh('turning a string into a number');
+
+  t.true( withWhQuestion);
+  t.false( withoutWhQuestion);
+})
